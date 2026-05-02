@@ -21,3 +21,24 @@ _autosave-*
 *.csv
 
 plots
+
+# macOS junk
+.DS_Store
+
+# IDE history files
+.history/
+
+# KiCad open-file lock files
+~*.lck
+
+# KiCad local UI state (project-personal, not shared)
+*.kicad_prl
+
+# KiCad migration backup zips
+*-backups/
+
+# Fabrication Toolkit output (regenerable from .kicad_pcb via the plugin)
+production/
+
+# Allow committed BOM CSVs in bom/ (overrides the *.csv ignore above)
+!bom/*.csv

@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name Seeeduino_XIAO)(type Legacy)(uri "${KIPRJMOD}/components/xiao/Seeeduino XIAO.lib")(options "")(descr ""))
+	(version 7)
+	(lib (name "Seeeduino_XIAO") (type "Legacy") (uri "${KIPRJMOD}/components/xiao/Seeeduino XIAO.lib") (options "") (descr ""))
+	(lib (name "matosic-macropad-cache") (type "Legacy") (uri "/Users/hrvatss/Developer/matosic-macropad-pcb/matosic-macropad-cache.lib") (options "") (descr "Legacy project cache library"))
 )

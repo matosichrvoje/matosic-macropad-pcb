@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,Quantity,LCSC Part #,Suggested LCSC,Notes
+1N4148,"D1,D2,D3,D4,D5,D6,D7,D8,D9",SOD-123,9,,C81598,Will Semicon — Basic part. Matrix diode for the 3x3 key grid.
+LED 1206 (color TBD),"L1,L2,L3,L4,L5,L6,L7,L8,L9",LED_1206_3216,9,,C2286,Pick by color you want for backlight. C2286 = red 1206 Basic. Verify on JLCPCB.
+68R 1% 0603,"R1,R2,R3,R4,R5,R6,R7,R8,R9",R_0603,9,,C25092,UNI-ROYAL 68 ohm 1% — Basic. Current limit for L1-L9.
+470R 1% 0603,R10,R_0603,1,,C23179,UNI-ROYAL 470 ohm 1% — Basic. Q1 base resistor.
+NPN BC817-25 SOT-23,Q1,SOT-23,1,,C2146,S8050 (C2146) is the most common Basic SOT-23 NPN. BC817-25 (C181583) also Basic but Extended fee may apply — verify.
+,,,,,,
+,,,,,,---- THROUGH-HOLE — recommend hand-solder ----
+Kailh hot-swap MX socket,"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9",Kailh_socket_MX,9,,C5184526,Kailh PG1511 — Basic on JLCPCB. Or buy from a keyboard supplier (cheaper per unit).
+Alps EC11 rotary encoder,E1,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,1,,C2924876,EC11 with switch 20mm shaft — Basic. Or generic equivalent from AliExpress.
+1x3 pin header 2.54mm,"J1,J2,J3,J4",PinHeader_1x03_P2.54mm,4,,C124375,Standard 2.54mm male header — Basic. Cut from a 40-pin strip.
+,,,,,,
+,,,,,,---- USER-SUPPLIED ----
+Seeeduino XIAO RP2040 (or any XIAO variant),U1,Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM,1,,C2912427,XIAO RP2040 — buy from Seeed or JLCPCB. NOT included in PCBA. User plugs in.
+2x 1x7 socket for XIAO,"(part of U1 socket)",PinSocket_1x07_P2.54mm,2,,C146647,Standard 2.54mm female header — cut from longer strip. Solder these so user can plug XIAO.

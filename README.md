@@ -1,29 +1,36 @@
-# ANAVI Macro Pad 10
+# Matosic Macropad
+
+Private development repo for the Matosic mechanical macropad PCB — a fork of [AnaviTechnology/anavi-macro-pad-10](https://github.com/AnaviTechnology/anavi-macro-pad-10).
+
+## Status
+
+🔒 **Private during development.** This repo will be made public when the design is ready to ship and at that point will fully comply with CC-BY-SA-4.0. Until then, the upstream license obligations don't apply because nothing has been distributed.
+
+## Hardware
+
+- 9-key Cherry MX + clickable rotary encoder (subset to be populated for v1)
+- **Seeeduino XIAO module socket** — supports any XIAO variant (XIAO RP2040 recommended); USB-C and microcontroller live on the XIAO, not on this PCB
+- Kailh hot-swap sockets for switches
+- 9× per-key 1206 SMD LED backlight (single-color, driven via SOT-23 NPN — not WS2812B)
+- 4× 1×3 expansion headers for external LED strips or other I/O
+- Designed in KiCad 10 (migrated from upstream KiCad 5 source)
+
+## Companion firmware
+
+CircuitPython firmware: https://github.com/matosichrvoje/matosic-macropad
+
+The firmware was originally written for a 6-key Pi Pico prototype and is being adapted to the Anavi 10 RP2040 pinout.
+
+## Credits
+
+Lead: **Hrvoje Matosic**
+Contributors: Jorge Ochoa, Iván Aceves, Iván Estevez
+Based on **ANAVI Macro Pad 10** by [anavi.technology](https://anavi.technology) — CC-BY-SA-4.0.
+
+## Files
+
+- `matosic-macropad.kicad_pro`, `matosic-macropad.kicad_pcb`, `matosic-macropad.sch` — KiCad project
+- `components/` — bundled footprint/symbol libraries (keyswitches, LEDs, XIAO, logo)
+- `case/` — OpenSCAD case sources + STL/STEP exports
 
 **Open source programmable keypad with 9 mechanical switches and a rotary encoder.**
-
-![ANAVI Macro Pad 10](https://github.com/AnaviTechnology/anavi-macro-pad-10/blob/main/anavi-macro-pad-10.jpg?raw=true)
-
-ANAVI Macro Pad 10 is an open source, custom-programmable, mini keyboard/keypad.
-
-ANAVI Macro Pad 10 has been designed with [the cross platform and open source electronics design automation suite KiCad](https://kicad.org/). Compatible with [KMK firmware](https://github.com/KMKfw/kmk_firmware/tree/master/boards/anavi/macro-pad-10) and [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/anavi).
-
-[ANAVI Macro Pad 10, ANAVI Knob 1 and ANAVI Knobs 3 were brought to market through a crowdfunding campaign at Crowd Supply](https://www.crowdsupply.com/anavi-technology/anavi-macro-pad-10). For more details please visit https://anavi.technology/
-
-# License
-
-The project is released under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
-
-Note: This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
-
-You are free to:
-
-Share — copy and redistribute the material in any medium or format Adapt — remix, transform, and build upon the material for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:
-
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices:
-
-You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
-
-You will have to provide a link to the original creator of the project http://www.anavi.technology on any documentation or website.
-
-Credit can be attributed through a link to the creator website: http://www.anavi.technology
