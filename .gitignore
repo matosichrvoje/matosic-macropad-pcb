@@ -43,3 +43,7 @@ production/
 # Allow committed BOM CSVs in bom/ (overrides the *.csv ignore above)
 !bom/*.csv
 
+# Local project notes — internal scratchpad, not shipped publicly.
+NOTES.md
+.notes/
+
