@@ -17,7 +17,7 @@ Private development repo for the Matosic mechanical macropad PCB — a fork of [
 
 ## Companion firmware
 
-CircuitPython firmware: https://github.com/matosichrvoje/matosic-macropad
+CircuitPython firmware: https://github.com/matosichrvoje/matosic-macropad-firmware
 
 The firmware was originally written for a 6-key Pi Pico prototype and is being adapted to the Anavi 10 RP2040 pinout.
 

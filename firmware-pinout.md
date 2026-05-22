@@ -1,6 +1,6 @@
 # Firmware pinout — v0.0.0.17
 
-Derived from [matosic-macropad.kicad_pcb](matosic-macropad.kicad_pcb) on 2026-05-18 during the first board bring-up. Use this map when porting [code.py](https://github.com/matosichrvoje/matosic-macropad/blob/main/code.py) to XIAO RP2040.
+Derived from [matosic-macropad.kicad_pcb](matosic-macropad.kicad_pcb) on 2026-05-18 during the first board bring-up. Use this map when porting [code.py](https://github.com/matosichrvoje/matosic-macropad-firmware/blob/main/code.py) to XIAO RP2040.
 
 ## XIAO U1 pin map
 
